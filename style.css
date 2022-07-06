@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    margin-bottom: 6px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.top-section{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 20%;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    margin-bottom: 90px;
+}
+.button-design{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button-design:hover{
+    background-color: #205bff ;
+    font-weight: bolder;
+}
+.donate-today-section{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.money-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.donate-today-section .money-box div {
+    height: 100px;
+    width: 135px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    
+}
+#design1{
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    color: #FF5959;
+}
+input[type=text]{
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    color: #B3B3B3;
+    border: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #B3B3B3;
+    width: 45%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=text]:focus{
+    outline: none;
+}
+button[type=submit]{
+    border: none;
+    font-size: 16px;
+}
+
+.donate-plan-section{
+    text-align: center;
+}
+.plan-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan-box div{
+    height: 352px;
+    width: 360px;
+    
+}
+#box1{
+    background-color: #4F9DA6;
+    opacity: 10%;
+}
+#box2{
+    background-color: #FF5959;
+}
+#box3{
+    background-color: #FFF4D6;
+}
