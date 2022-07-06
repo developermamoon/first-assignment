@@ -115,11 +115,11 @@ button[type=submit]{
     padding: 20px;
 }
 #box1{
-    background-color: #4F9DA6;
+    background-color: #4f9da64b
 }
 
 #box2{
-    background-color: #FF5959;
+    background-color: #ff5959b6;
 }
 #box3{
     background-color: #FFF4D6;
@@ -163,7 +163,11 @@ button[type=submit]{
 .get-my-updates-section{
     margin-bottom: 90px;
 }
-.get-my-updates-section h2,p{
+.get-my-updates-section h2{
+    text-align: center;
+}
+
+.get-my-updates-section p{
     text-align: center;
 }
 .bg{
@@ -190,9 +194,12 @@ button[type=submit]{
 input[type=email]{
     padding: 10px 20px;
 }
-input[type=button]{
+input[type=submit]{
     border: none;
     font-size: 16px;
+}
+form{
+    display: inherit;
 }
 
 footer{
