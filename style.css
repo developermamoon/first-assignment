@@ -43,9 +43,11 @@ p{
     font-family: 'Inter', sans-serif;
     padding: 10px 20px;
     border-radius: 10px;
+    
 }
 .button-design:hover{
     background-color: #205bff ;
+    cursor: pointer;
     
 }
 .donate-today-section{
@@ -190,6 +192,7 @@ button[type=submit]{
 }
 .button-design-subscribe:hover{
     background-color: #205bff ;
+    cursor: pointer;
 }
 input[type=email]{
     padding: 10px 20px;
