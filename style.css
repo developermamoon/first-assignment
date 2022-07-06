@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Inter', sans-serif;
@@ -9,6 +10,13 @@ h1{
     font-family: 'Inter', sans-serif;
     font-size: 50px;
     margin-bottom: 6px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h2,h3{
+    font-family: 'Inter', sans-serif;
 }
 p{
     font-family: 'Poppins', sans-serif;
@@ -38,7 +46,7 @@ p{
 }
 .button-design:hover{
     background-color: #205bff ;
-    font-weight: bolder;
+    
 }
 .donate-today-section{
     text-align: center;
@@ -87,23 +95,116 @@ button[type=submit]{
 
 .donate-plan-section{
     text-align: center;
+    margin-bottom: 90px;
 }
 .plan-box{
     display: flex;
     justify-content: space-evenly;
 }
 .plan-box div{
-    height: 352px;
-    width: 360px;
-    
+    height: auto;
+    width: 380px;
+    padding-top: 40px;
+}
+.plan-box div img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 30px;
+}
+.plan-box div p{
+    padding: 20px;
 }
 #box1{
     background-color: #4F9DA6;
-    opacity: 10%;
 }
+
 #box2{
     background-color: #FF5959;
 }
 #box3{
     background-color: #FFF4D6;
+}
+
+.full-content{
+    display: flex;
+    padding: 20px;
+    margin: 40px;
+    align-items: center;
+}
+.text-part{
+    width: 50%;
+    padding: 20px;
+}
+.image-part{
+    width: 50%;
+}
+.image-part img{
+    width: 90%;
+}
+.contribute-section3{
+    margin-bottom: 90px;
+}
+.contribute-section3 h2{
+    text-align: center;
+}
+.gallery-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.gallery-content img{
+    width: 400px;
+    height: auto;
+    box-shadow: 10px 10px 5px gray;
+}
+.gallery-content img:hover{
+    border: 1px solid blue;
+}
+.get-my-updates-section{
+    margin-bottom: 90px;
+}
+.get-my-updates-section h2,p{
+    text-align: center;
+}
+.bg{
+    background-color: #FFF4D6;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-design-subscribe{
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.button-design-subscribe:hover{
+    background-color: #205bff ;
+}
+input[type=email]{
+    padding: 10px 20px;
+}
+input[type=button]{
+    border: none;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+}
+footer p {
+    margin: 0;
 }
